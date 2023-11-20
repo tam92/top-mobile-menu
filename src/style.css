@@ -1,0 +1,25 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+
+html {
+    max-height: 915px;
+    max-width: 412px;
+    background-color: pink;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li {
+    list-style-type: none;
+    padding: 5px;
+    border: 1px solid black;
+}
