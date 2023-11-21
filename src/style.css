@@ -2,24 +2,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: aliceblue;
 }
 
-html {
-    max-height: 915px;
-    max-width: 412px;
-    background-color: pink;
+nav {
+    background-color: palevioletred;
+    max-width: fit-content;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+figure {
+    padding: 12px;
 }
 
 li {
     list-style-type: none;
     padding: 5px;
-    border: 1px solid black;
+}
+
+input[type=image] {
+    padding: 10px;
 }

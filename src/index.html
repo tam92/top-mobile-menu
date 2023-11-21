@@ -6,22 +6,39 @@
     <title>Mobile menu</title>
   </head>
   <body>
-    <nav>
-      <ul>
-        <li>
-          Home
-        </li>
-        <li>
-          Profile
-        </li>
-        <li>Settings</li>
-        <li>News</li>
-        <li>Videos</li>
-        <li>Photos</li>
-        <li>More</li>
-        <li>Chat</li>
-        <li>Friends</li>
-      </ul>
+
+    <nav id="menu">
+      <input type="image" id="btn-menu" src="/src/images/three-dots-vertical.svg"/>
+        <div id="collapsable-menu" hidden>
+          <figure id="submenu-1">
+            <figcaption>Menu 1</figcaption>
+            <ul id="ul-1" hidden>
+              <li>Submenu 1.1</li>
+              <li>Submenu 1.2</li>
+              <li>Submenu 1.3</li>
+            </ul>
+          </figure>
+      
+          <figure id="submenu-2">
+            <figcaption>Menu 2</figcaption>
+            <ul id="ul-2" hidden>
+              <li>Submenu 2.1</li>
+              <li>Submenu 2.2</li>
+              <li>Submenu 2.3</li>
+              <li>Submenu 2.4</li>
+            </ul>
+          </figure>
+      
+          <figure id="submenu-3">
+            <figcaption>Menu 3</figcaption>
+            <ul id="ul-3" hidden>
+              <li>Submenu 3.1</li>
+              <li>Submenu 3.2</li>
+              <li>Submenu 3.3</li>
+            </ul>
+          </figure>
+        </div>
     </nav>
+
   </body>
 </html>
